@@ -41,7 +41,7 @@ body{
 	box-shadow: 10px 10px 12px;
 }
 #greenbox{
-	background-color: #a7fb96;
+	background-color: #88ff89;
 	position: absolute;
 	width: 520px;
 	height: 170px;
@@ -122,9 +122,14 @@ body{
 	height: 70px;
 }
 #text{
-	margin-top:10px;
-	margin-left: 9px;
+	margin-top: 7px;
+	margin-left: 9px; 
 	font-size: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#text span{
+	font-family: 'Times New Roman', Times;
+	font-size: 36px;
 }
 /* #leftbox img{
 	height: 70px;
