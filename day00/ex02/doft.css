@@ -122,17 +122,50 @@ body{
 	height: 70px;
 }
 #text{
-	margin-top: 7px;
-	margin-left: 9px; 
-	font-size: 20px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Verdana;
 }
-#text span{
-	font-family: 'Times New Roman', Times;
-	font-size: 36px;
+#s1{
+    font-family: Georgia, serif;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 0px;
 }
-/* #leftbox img{
-	height: 70px;
-	margin-left: 32px;
-	margin-top: 10px;
-} */
+.s2{
+	font-size: 16px;
+    font-family: Verdana;
+    text-shadow: 5px 5px 6px #b37650;
+}
+#italic{
+	font-style: italic;
+    margin-left: -2px;
+    margin-top: -1px;
+    letter-spacing: -0.16px;
+}
+
+#inp1{
+    margin-top: 0px;
+    margin-left: 12px;
+    border-width: 2px;
+    border-top-color: #eeeeee;
+    width: 382px;
+    height: 21px;
+}
+#inp2{
+	margin-left: 3.9px;
+    margin-top: 2px;
+    width: 79px;
+    height: 22px;
+    font-family: verdana;
+    font-size: 13px;
+    background: #f3f1f2;
+    background: -moz-linear-gradient(top, #f3f1f2 0%, #dadada 100%);
+    background: -webkit-linear-gradient(top, #f3f1f2 0%,#dadada 100%);
+    background: linear-gradient(to bottom, #f3f1f2 0%,#dadada 100%);
+    border-color: #9f9f9f;
+    border-width: 2px;
+    border-radius: 2px;
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+table{
+	margin: auto;
+	max-width: 1260px;
+	border-spacing: 0.2vw;
+}
+#imgcontener{
+	text-align: center;
+}
+#img{
+    width: 15vw;
+}
+#group{
+	min-width: 4.5vw;
+}
+td {
+	border: solid;
+	border-width: 1px;
+}
+#period, #group{
+	border: none;
+	text-align: center;
+	transform: none;
+	font-size: 1.5vw;
+}
+td:hover {
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2vw;
+}
+.sta{
+	text-align: right;
+	font-size: 1.1vw;
+	font-style: italic;
+}
+.number{
+	text-align: center;
+	font-size: 1.5vw;
+}
+#free{
+	border-collapse: separate;
+	border: none;
+}
+.alckhan{
+	background-color: #f9d878;
+}
+.alckhanearth{
+	background-color: #fffe85;
+}
+.nometal{
+	background-color: #9afb7a;
+}
+.metal{
+	background-color: #a5e1a4;
+}
+.transmetal{
+	background-color: #dec8c8;
+}
+.ptmetal{
+	background-color: #b8e1d6;
+}
+.la{
+	background-color: #f4be9e;
+}
+.ac{
+	background-color: #ebcae2;
+}
+.noblegass{
+	background-color: #9ad2fb;
+}
+@media only screen and (min-width:1366px){
+	table{
+		border-spacing: 2px;
+	}
+	.sta{
+		font-size: 15px;
+	}
+	.number{
+		font-size: 20px;
+	}
+	.name{
+		font-size: 27px;
+	}
+	#group{
+		min-width: 63px;
+	}
+	#period, #group{
+		min-height: 75px;
+		font-size: 20px;
+	}
+	#img{
+		width: 210px;
+	}
+}
