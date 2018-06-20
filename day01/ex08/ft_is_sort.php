@@ -5,6 +5,12 @@
 		if ($arr1 == $arr)
 			return TRUE;
 		else
-			return FALSE;
+		{
+			$arr1 = $arr;
+			rsort ($arr1);
+			if ($arr1 == $arr)
+				return TRUE;
+		}
+		return FALSE;
 	}
 ?>

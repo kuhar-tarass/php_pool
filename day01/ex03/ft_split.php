@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 	function ft_split($str){
 		$arr1 =  preg_split("/[\s,]+/", $str);
