@@ -1,0 +1,49 @@
+<html>
+<style>
+#ballon{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 100%;
+}
+
+
+
+
+
+</style>
+<head>
+
+
+</head>
+
+
+<body>
+
+<div id="ballon" onclick="changecolor()" > 
+<script>
+	function changecolor() {
+		var ballon = document.getElementById("ballon");
+		if (ballon.style.backgroundColor == "red")
+			ballon.style.backgroundColor = "blue";
+		else
+			ballon.style.backgroundColor = "red";
+		
+		
+		document.write(ballon.style.width); //= parseInt(ballon.style.width) + 10 + "px";
+		document.write(ballon.style.height) //ballon.style.height = parseInt(ballon.style.height) + 10 + "px";
+
+
+	}
+</script>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
